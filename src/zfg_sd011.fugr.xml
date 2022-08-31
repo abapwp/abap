@@ -21,23 +21,24 @@
        <OPTIONAL>X</OPTIONAL>
        <TYP>BUDAT</TYP>
       </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LIKP_TAB</PARAMETER>
+       <TYP>ZTTSD011_LIKP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LIPS_TAB</PARAMETER>
+       <TYP>ZTTSD011_LIPS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SERI_TAB</PARAMETER>
+       <TYP>ZTTSD011_SERI</TYP>
+      </RSIMP>
      </IMPORT>
      <TABLES>
       <RSTBL>
-       <PARAMETER>I_LIKP_TAB</PARAMETER>
-       <DBSTRUCT>ZSSD011_A</DBSTRUCT>
-      </RSTBL>
-      <RSTBL>
-       <PARAMETER>I_LIPS_TAB</PARAMETER>
-       <DBSTRUCT>ZSSD011_B</DBSTRUCT>
-      </RSTBL>
-      <RSTBL>
-       <PARAMETER>I_SERI_TAB</PARAMETER>
-       <DBSTRUCT>ZSSD011_C</DBSTRUCT>
-      </RSTBL>
-      <RSTBL>
        <PARAMETER>O_MSG</PARAMETER>
        <DBSTRUCT>ZSSD011_D</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
       </RSTBL>
      </TABLES>
      <DOCUMENTATION>
@@ -54,17 +55,17 @@
       <RSFDO>
        <PARAMETER>I_LIKP_TAB</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>交货单过账结构I_LIKP_TAB</STEXT>
+       <STEXT>交货单过账传入结构LIKP</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>I_LIPS_TAB</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>交货单过账结构I_LIPS_TAB</STEXT>
+       <STEXT>交货单过账传入结构LIPS</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>I_SERI_TAB</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>交货单过账I_SERI_TAB</STEXT>
+       <STEXT>交货单过账传入结构SERI</STEXT>
       </RSFDO>
       <RSFDO>
        <PARAMETER>O_MSG</PARAMETER>

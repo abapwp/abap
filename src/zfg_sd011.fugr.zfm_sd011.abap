@@ -4,11 +4,11 @@ FUNCTION zfm_sd011.
 *"  IMPORTING
 *"     VALUE(I_VBELN) TYPE  VBELN
 *"     VALUE(I_BUDAT) TYPE  BUDAT OPTIONAL
+*"     VALUE(I_LIKP_TAB) TYPE  ZTTSD011_LIKP
+*"     VALUE(I_LIPS_TAB) TYPE  ZTTSD011_LIPS
+*"     VALUE(I_SERI_TAB) TYPE  ZTTSD011_SERI
 *"  TABLES
-*"      I_LIKP_TAB STRUCTURE  ZSSD011_A
-*"      I_LIPS_TAB STRUCTURE  ZSSD011_B
-*"      I_SERI_TAB STRUCTURE  ZSSD011_C
-*"      O_MSG STRUCTURE  ZSSD011_D
+*"      O_MSG STRUCTURE  ZSSD011_D OPTIONAL
 *"----------------------------------------------------------------------
 
   /afl/log_init.   "初始化日志

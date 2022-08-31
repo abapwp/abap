@@ -6,7 +6,7 @@ FUNCTION zfm_sd003.
 *"     VALUE(I_VBAK_TAB) TYPE  ZTTSD003_VBAK
 *"     VALUE(I_VBAP_TAB) TYPE  ZTTSD003_VBAP
 *"  TABLES
-*"      O_MSG STRUCTURE  ZSSD003_C
+*"      O_MSG STRUCTURE  ZSSD003_C OPTIONAL
 *"----------------------------------------------------------------------
   DATA:
     lv_salesdocument TYPE bapivbeln-vbeln.
