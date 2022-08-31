@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_W3MI" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <NAME>ZSDR001_XY</NAME>
+   <TEXT>客户信用主数据导入模板</TEXT>
+   <PARAMS>
+    <WWWPARAMS>
+     <RELID>MI</RELID>
+     <OBJID>ZSDR001_XY</OBJID>
+     <NAME>fileextension</NAME>
+     <VALUE>.xls</VALUE>
+    </WWWPARAMS>
+    <WWWPARAMS>
+     <RELID>MI</RELID>
+     <OBJID>ZSDR001_XY</OBJID>
+     <NAME>filename</NAME>
+     <VALUE>客户信用主数据导入模板.xls</VALUE>
+    </WWWPARAMS>
+    <WWWPARAMS>
+     <RELID>MI</RELID>
+     <OBJID>ZSDR001_XY</OBJID>
+     <NAME>mimetype</NAME>
+     <VALUE>EXCEL</VALUE>
+    </WWWPARAMS>
+   </PARAMS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

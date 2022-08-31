@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZE_ITYPE</ROLLNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <DOMNAME>ZD_ITYPE</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>接口传输类型（I传入,O传出）</DDTEXT>
+    <REPTEXT>接口传输类型（I传入,O传出）</REPTEXT>
+    <SCRTEXT_S>接口传输类型（I传入</SCRTEXT_S>
+    <SCRTEXT_M>接口传输类型（I传入,O传出）</SCRTEXT_M>
+    <SCRTEXT_L>接口传输类型（I传入,O传出）</SCRTEXT_L>
+    <DTELMASTER>1</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
